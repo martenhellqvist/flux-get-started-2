@@ -14,7 +14,7 @@ spec:
     ref: master
     path: charts/ghost
   values:
-    image: bitnami/ghost:1.21.5-r0
+    image: bitnami/ghost:3.2.0-debian-9-r16
     persistence:
       enabled: false
     resources:
