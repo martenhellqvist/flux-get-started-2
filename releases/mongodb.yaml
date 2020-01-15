@@ -10,9 +10,9 @@ metadata:
 spec:
   releaseName: mongodb
   chart:
-    git: ssh://git@github.com:helm/charts.git
-    path: stable/mongodb
-    ref: master
+    repository: https://kubernetes-charts.storage.googleapis.com/
+    name: mongodb
+    version: 4.9.0
   values:
     image:
       repository: bitnami/mongodb
